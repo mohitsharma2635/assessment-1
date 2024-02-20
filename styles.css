@@ -1,0 +1,131 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background: hsla(350, 73%, 44%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(350, 73%, 44%, 1) 0%,
+    hsla(274, 65%, 12%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(350, 73%, 44%, 1) 0%,
+    hsla(274, 65%, 12%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(350, 73%, 44%, 1) 0%,
+    hsla(274, 65%, 12%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C11E38", endColorstr="#220B34", GradientType=1 );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#CAF2EF", endColorstr="#C9EFDC", GradientType=1 );
+}
+
+.card {
+  background-color: white;
+  width: 1400px;
+  height: px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 48px 32px;
+  margin: 20px;
+}
+form input {
+  border: 1px solid #c4c4c4;
+  height: 26px;
+}
+
+select {
+  border: 1px solid #c4c4c4;
+  height: 38px;
+  border-radius: 10px;
+}
+
+input.submit {
+  padding: 20px;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  height: 40px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card form {
+  display: grid;
+  gap: 10px;
+}
+
+.card label {
+  font-weight: semi-bold;
+  height: 14px;
+  font-size: 18px;
+}
+
+.card input[type="text"],
+.card input[type="date"],
+.card input[type="email"],
+.card input[type="remarks"],
+.card input[type="department"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.card input[type="submit"] {
+  padding: 10px;
+  background-color: #220b34;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
+  width: 100%;
+}
+.grid-item label {
+  padding-bottom: 12px;
+}
+.customer-list {
+  margin-top: 40px;
+}
+
+.table {
+  margin-top: 30px;
+}
+.table-row th {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #220b34;
+  color: #fff;
+  width: 135px;
+}
+
+.table-row td {
+  font-size: 18px;
+  height: 40px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

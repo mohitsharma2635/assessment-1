@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="card">
+        <h2>Create Customer</h2>
+        <form>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="grid-item">
+                    <label for="surname">Surname:</label>
+                    <input type="text" id="surname" name="surname" required>
+                </div>
+                <div class="grid-item">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+            </div>
+
+
+            <div class="grid-container">
+                <div class="grid-item">
+                    <label for="department">Department:</label>
+                    <select id="department" name="department">
+                        <option value="" disabled selected>Select Department</option>
+                        <option value="JSD">Junior Softwate Developer</option>
+                        <option value="BA">Business Analyst</option>
+                        <option value="HR">Human Resource </option>
+                        <option value="QA">Quality Assurance</option>
+                        <option value="PM">Project Manager</option>
+                    </select>
+                </div>
+                <div class="grid-item">
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address">
+                </div>
+                <div class="grid-item">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </div>
+
+            <div class="grid-container">
+                <div class="grid-item">
+                    <label for="country">Country:</label>
+                    <input type="text" id="country" name="country">
+                </div>
+                <div class="grid-item">
+                    <label for="state">State:</label>
+                    <input type="text" id="state" name="state">
+                </div>
+                <div class="grid-item">
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city">
+                </div>
+            </div>
+
+            <div class="grid-item2">
+                <label for="gender">Gender:</label>
+                <label><input type="radio" name="gender" value="male">Male</label>
+                <label><input type="radio" name="gender" value="female">Female</label>
+                <label><input type="radio" name="gender" value="other">Other</label>
+            </div>
+            <div class="grid-item">
+                <label for="remarks">Remarks:</label>
+                <input type="text" id="remarks" name="remarks"></input>
+            </div>
+            <input class="submit" type="submit" value="Submit">
+        </form>
+        <div class="customer-list">
+            <h2>Customer Information</h2>
+        </div>
+        <table class="table">
+            <thead>
+                <tr class="table-row">
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Date of Birth</th>
+                    <th>Department</th>
+                    <th>Address</th>
+                    <th>Email</th>
+                    <th>Country</th>
+                    <th>State</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-row">
+                    <td>Mohit</td>
+                    <td>Sharma</td>
+                    <td>01/01/1990</td>
+                    <td>Jr. Software Developer</td>
+                    <td>1234 Main St</td>
+                    <td>mohit@gmail.com</td>
+                    <td>India</td>
+                    <td>Delhi</td>
+                    <td>New Delhi</td>
+                </tr>
+                <tr class="table-row">
+                    <td>Divyansh</td>
+                    <td>Gupta</td>
+                    <td>01/01/1999</td>
+                    <td>Business Analyst</td>
+                    <td>25 street 2</td>
+                    <td>divyansh@gmail.com</td>
+                    <td>USA</td>
+                    <td>California</td>
+                    <td>San Diego</td>
+                </tr>
+                <tr class="table-row">
+                    <td>Naman</td>
+                    <td>Rajput</td>
+                    <td>01/01/2000</td>
+                    <td>Human Resource </td>
+                    <td>37 Faridabad</td>
+                    <td>naman@gmail.com</td>
+                    <td>India</td>
+                    <td>Haryana</td>
+                    <td>Faridabad</td>
+                </tr>
+                <tr class="table-row">
+                    <td>Vanshika</td>
+                    <td>Mittal</td>
+                    <td>01/01/2001</td>
+                    <td>Quality Assurance</td>
+                    <td>12 Badkal</td>
+                    <td>vanshika@gmail.com</td>
+                    <td>India</td>
+                    <td>Haryana</td>
+                    <td>Faridabad</td>
+                </tr>
+                <tr class="table-row">
+                    <td>Saloni</td>
+                    <td>Khaiwal</td>
+                    <td>01/01/2002</td>
+                    <td>Jr. Software Developer</td>
+                    <td>26 Army Colony</td>
+                    <td>saloni@gmail.com</td>
+                    <td>India</td>
+                    <td>UP</td>
+                    <td>Meerut</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+</body>
+
+</html>
